@@ -1,6 +1,13 @@
 # Pi-OpenCV
 
-How to build OpenCV 3.0 binaries for the Raspberry Pi.
+How to build and install OpenCV 3.0 binaries for the Raspberry Pi.
+
+## Installation of OpenCV 3.0 binary on the Raspberry Pi
+
+```
+$ wget https://github.com/MeasureTheFuture/Pi-OpenCV/releases/download/3.4.1/opencv_3.4.1_armhf.deb
+$ sudo dpkg -i opencv_3.4.1_armhf.deb
+```
 
 ## Compilation of OpenCV 3.0 on the Raspberry Pi
 

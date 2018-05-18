@@ -1,0 +1,5 @@
+
+lib/* /usr/local/lib
+../include/opencv usr/local/include
+../include/opencv2 usr/local/include
+../modules/*/include/* usr/local/include

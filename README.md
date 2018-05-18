@@ -37,6 +37,11 @@ $ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 
 Edit swap space:
 ```
+$ sudo apt-get install vim
+$ vim /etc/dphys-swapfile
+```
+Change this line:
+```
 # set size to absolute value, leaving empty (default) then uses computed value
 #   you most likely don't want this, unless you have an special disk situation
 # CONF_SWAPSIZE=100

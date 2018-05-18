@@ -26,8 +26,8 @@ $ wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.
 $ unzip opencv_contrib.zip
 $ cd ~/opencv-3.4.1/
 $ mkdir build
-$ git clone https://github.com/MeasureTheFuture/Pi-OpenCV.git
 $ cd build
+$ git clone https://github.com/MeasureTheFuture/Pi-OpenCV.git
 $ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
     -D INSTALL_PYTHON_EXAMPLES=OFF \
